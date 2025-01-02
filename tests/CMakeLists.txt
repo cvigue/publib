@@ -9,6 +9,7 @@ add_executable(test_clvlib)
 target_sources(test_clvlib PRIVATE
     cbmi_tests.cpp
     ci_string_tests.cpp
+    intrusive_tests.cpp
 )
 
 target_include_directories(test_clvlib PRIVATE
