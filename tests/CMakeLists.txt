@@ -11,6 +11,8 @@ target_sources(test_clvlib PRIVATE
     ci_string_tests.cpp
     intrinsic_type_tests.cpp
     intrusive_tests.cpp
+    runtime_dispatcher_tests.cpp
+    tuple_help_tests.cpp
 )
 
 target_include_directories(test_clvlib PRIVATE
